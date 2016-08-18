@@ -3,6 +3,9 @@ This document presents the steps needed in order to reproduce the data used in o
 
 ## Downloading the projects
 Here we describe how we download data projects hosted on GitHub.
+### ISSUES & PULL-REQUESTS
+We have developed two scripts to perform this function, [IssueSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueSpider.py) and [PullSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullSpider.py). Both are run through the terminal in a very similar way. If necessary, see the docstrings in each code to understand it better.
+
 
 If you prefer , you can use a similar alternative in Java , available at:
 https://github.com/luizsusin/gitparser
