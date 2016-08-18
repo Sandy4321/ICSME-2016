@@ -12,10 +12,10 @@ Fill out the question marks with the desired data:
 
 `scrapy runspider [Issue|Pull]Spider.py -a filename = ? -a url = ? -a firstpage = ? -a lastpage = ?`
 
-### CONTRIBUTORS & CONTRIBUTIONS
-
-If you prefer , you can use a similar alternative in Java , available at:
+If you prefer , you can use a similar alternative to download this data in Java , available at:
 https://github.com/luizsusin/gitparser
+
+### CONTRIBUTORS & CONTRIBUTIONS
 
 ## Generating charts
 
