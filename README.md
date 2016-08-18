@@ -12,18 +12,21 @@ Fill out the question marks with the desired data:
 
 `scrapy runspider [Issue|Pull]Spider.py -a filename = ? -a url = ? -a firstpage = ? -a lastpage = ?`
 
-To organize the data collected by the scripts above, before generating graphics, we execute two scripts to organize monthly issues and pull-requests dates: [IssueMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueMonthlyAmount.py) and [PullMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullMonthlyAmount.py). 
-
-`python IssueMonthlyAmount.py`
-
-`python PullMonthlyAmount.py`
-
-Finally , you can run the script to generate the graphics.
-
 ### CONTRIBUTORS & CONTRIBUTIONS
 
 If you prefer , you can use a similar alternative in Java , available at:
 https://github.com/luizsusin/gitparser
+
+## Generating charts
+
+Before generating graphics, to organize the data collected by the scripts above, we execute four scripts to organize monthly issues, pull-requests, contributors and contributions dates: [IssueMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueMonthlyAmount.py), [PullMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullMonthlyAmount.py),
+[ContributionMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributionMonthlyAmount.py) and [ContributorMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributorMonthlyAmount.py).
+
+`python [Issue|Pull|Contribution|Contributor]MonthlyAmount.py`
+
+
+Finally , you can run the script to generate the graphics.
+
 
 
 
