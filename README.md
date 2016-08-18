@@ -8,7 +8,7 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
 
 > NOTE: To run these scripts, before install [Scrapy (Installation Guide)](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
-To organize the data collected by the scripts above, before generating graphics, we create two scripts to organize monthly issues and pull-requests dates: [IssueMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueMonthlyAmount.py) and [PullMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullMonthlyAmount.py). See the docstrings in each code to learn how to run the code and to understand it better.
+To organize the data collected by the scripts above, before generating graphics, we execute two scripts to organize monthly issues and pull-requests dates: [IssueMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueMonthlyAmount.py) and [PullMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullMonthlyAmount.py). See the docstrings in each code to learn how to run the code and to understand it better.
 
 ### CONTRIBUTORS & CONTRIBUTIONS
 
