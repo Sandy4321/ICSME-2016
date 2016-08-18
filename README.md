@@ -8,7 +8,7 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
 
 > NOTE: To run these scripts, before install [Scrapy (Installation Guide)](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
-Fill out the question marks with the desired data:
+To download a project hosted on Github, fill out the question marks with the desired data:
 
 `scrapy runspider [Issue|Pull]Spider.py -a filename = ? -a url = ? -a firstpage = ? -a lastpage = ?`
 
