@@ -8,8 +8,8 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
 
 > NOTE: To run these scripts, before install [Scrapy (Installation Guide)](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
+Fill out the question marks with the desired data:
 `scrapy runspider [Issue|Pull]Spider.py -a filename = ? -a url = ? -a firstpage = ? -a lastpage = ?`
-* Complete the questions with the desired data
 
 To organize the data collected by the scripts above, before generating graphics, we execute two scripts to organize monthly issues and pull-requests dates: [IssueMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueMonthlyAmount.py) and [PullMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullMonthlyAmount.py). 
 
