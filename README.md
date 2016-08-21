@@ -12,7 +12,7 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
   scrapy runspider [Issue|Pull]Spider.py -a filename = project_data.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10
 ```
 At the end of the program , you must have a file like [this](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/issue_file_example.txt).
-If you prefer , you can use a similar alternative to download this data in Java , available at:
+And if you prefer , you can use a similar alternative to download this data in Java , available at:
 https://github.com/luizsusin/gitparser
 
 #### CONTRIBUTOR AND CONTRIBUTION
