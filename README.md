@@ -3,7 +3,7 @@ This document presents the steps needed in order to reproduce the data used in o
 
 ## Downloading Data
 Here we describe how we download projects data hosted on GitHub.
-#### ISSUES AND PULLS 
+#### ISSUE AND PULL-REQUEST 
 We have developed two scripts to perform this function, [IssueSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueSpider.py) and [PullSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullSpider.py). Both are run through the terminal in a very similar way. Follow the model below and see the docstrings in each code to understand it better:
 
 > NOTE: To run these scripts, before install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
