@@ -9,13 +9,17 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
 > NOTE: To run these scripts, before install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
 ```bash
-scrapy runspider [Issue|Pull]Spider.py -a filename = project_data.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10
+  scrapy runspider [Issue|Pull]Spider.py -a filename = project_data.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10
 ```
 
 If you prefer , you can use a similar alternative to download this data in Java , available at:
 https://github.com/luizsusin/gitparser
 
-#### CONTRIBUTORS AND CONTRIBUTIONS
+#### CONTRIBUTOR AND CONTRIBUTION
+Clone the desired repository using:
+```bash
+  git clone https://github.com/ruby/ruby.git
+```
 
 ## Generating charts
 Here we describe how we generate projects charts.
