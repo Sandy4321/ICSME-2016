@@ -16,7 +16,7 @@ If you prefer , you can use a similar alternative to download this data in Java 
 https://github.com/luizsusin/gitparser
 
 #### CONTRIBUTOR AND CONTRIBUTION
-Clone the desired repository using:
+Initially , clone the repository as in the example below:
 
 ```git clone https://github.com/ruby/ruby.git```
 
