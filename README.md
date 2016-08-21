@@ -17,6 +17,7 @@ https://github.com/luizsusin/gitparser
 
 #### CONTRIBUTOR AND CONTRIBUTION
 Clone the desired repository using:
+
 ```git clone https://github.com/ruby/ruby.git```
 
 ## Generating charts
