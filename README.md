@@ -2,15 +2,13 @@
 This document presents the steps needed in order to reproduce the data used in our ICSME-ERA study. Read on for the guidelines.
 
 ## Downloading the projects
-Here we describe how we download data projects hosted on GitHub.
+Here we describe how we download projects data hosted on GitHub.
 #### ISSUES AND PULL-REQUESTS
-We have developed two scripts to perform this function, [IssueSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueSpider.py) and [PullSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullSpider.py). Both are run through the terminal in a very similar way. See the docstrings in each code to understand it better.
+We have developed two scripts to perform this function, [IssueSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueSpider.py) and [PullSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullSpider.py). Both are run through the terminal in a very similar way. Follow the model below and see the docstrings in each code to understand it better:
 
 > NOTE: To run these scripts, before install [Scrapy (Installation Guide)](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
-To download issues or pull-requests of a project, fill out the question marks with the desired data:
-
-`scrapy runspider [Issue|Pull]Spider.py -a filename = ? -a url = ? -a firstpage = ? -a lastpage = ?`
+`scrapy runspider [Issue|Pull]Spider.py -a filename = my_project.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10`
 
 If you prefer , you can use a similar alternative to download this data in Java , available at:
 https://github.com/luizsusin/gitparser
@@ -24,9 +22,7 @@ Before generating graphics, to organize the data collected by the scripts above,
 [ContributionMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributionMonthlyAmount.py) and [ContributorMonthlyAmount.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributorMonthlyAmount.py).
 
 To perform each of the codes, use:
-
 `python [Issue|Pull|Contribution|Contributor]MonthlyAmount.py`
-
 
 Finally , you can run the script to generate the graphics.
 
