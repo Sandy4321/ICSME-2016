@@ -8,7 +8,7 @@ We have developed two scripts to perform this function, [IssueSpider.py](https:/
 
 > NOTE: To run these scripts, before install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
-```
+```*.sh
 scrapy runspider [Issue|Pull]Spider.py -a filename = my_project.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10
 ```
 
