@@ -33,7 +33,7 @@ To perform each of the codes, use:
 
 ` python [Issue|Pull|Contribution|Contributor]MonthlyAmount.py`
 
-Finally , you can run thes scripts to generate the graphics: [ContributorContributionChart.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributorContributionChart.py), [IssueChart.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueChart.py) and
+Finally , you can run thes scripts to generate the charts: [ContributorContributionChart.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/ContributorContributionChart.py), [IssueChart.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueChart.py) and
 [PullChart.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullChart.py).
 
 ` python [ContributorContribution|Issue|Pull]Chart.py`
