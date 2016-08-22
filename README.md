@@ -24,15 +24,7 @@ Then run the shellscripts [Contributors.sh](https://github.com/fronchetti/ICSME-
 
 ```./[Contributors|Newcomers].sh /home/example/repository ```
 
-And within the repository folder
-
-```./Contributions.sh ```
-
-
-
-```git clone https://github.com/ruby/ruby.git```
-
-
+```./Contributions.sh (Run this code in the repository folder) ```
 
 ## Generating charts
 Here we describe how we generate projects charts.
