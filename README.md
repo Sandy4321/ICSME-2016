@@ -18,13 +18,13 @@ https://github.com/luizsusin/gitparser
 #### CONTRIBUTOR AND CONTRIBUTION
 Initially , clone the repository as in the example below:
 
-```git clone https://github.com/ruby/ruby.git```
+``` git clone https://github.com/ruby/ruby.git```
 
 Then run the shellscripts [Contributors.sh](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/Contributors.sh), [Contributions.sh](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/Contributions.sh), [Newcomers.sh](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/Newcomers.sh) as follows:
 
-```./[Contributors|Newcomers].sh /home/example/repository ```
+``` ./[Contributors|Newcomers].sh /home/example/repository ```
 
-```./Contributions.sh (Run this code in the repository folder) ```
+``` ./Contributions.sh (Run this code in the repository folder) ```
 
 ## Generating charts
 Here we describe how we generate projects charts.
@@ -34,7 +34,7 @@ Before generating graphics, to organize the data collected by the scripts above,
 
 To perform each of the codes, use:
 
-`python [Issue|Pull|Contribution|Contributor]MonthlyAmount.py`
+` python [Issue|Pull|Contribution|Contributor]MonthlyAmount.py`
 
 Finally , you can run the script to generate the graphics.
 
