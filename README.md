@@ -6,7 +6,7 @@ Here we describe how to download projects data from GitHub.
 #### ISSUE AND PULL-REQUEST 
 We have developed two scripts to perform this function, [IssueSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/IssueSpider.py) and [PullSpider.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/PullSpider.py). Both are run through the terminal in a very similar way. Follow the model below and see the docstrings in each code to understand it better:
 
-> NOTE: To run these scripts, before install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
+> NOTE: To run these scripts, you need to install [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) on your machine.
 
 ```bash
   scrapy runspider [Issue|Pull]Spider.py -a filename = project_data.txt -a url = https://github.com/ruby/ruby/ -a firstpage = 1 -a lastpage = 10
