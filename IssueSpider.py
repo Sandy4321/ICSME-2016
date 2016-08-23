@@ -91,19 +91,24 @@ class Utils():
         author = author[0].encode('utf-8').strip()
         comment = comment[3].encode('utf-8').strip()
 
-        open_date_format = []
-        for date in open_date:
-            open_time_string = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
-            open_date_format.append(open_time_string.strftime('%d/%m/%Y').encode('utf-8'))
+        open_time_string = datetime.strptime(open_date[0], '%Y-%m-%dT%H:%M:%SZ')
+        open_date_format = open_time_string.strftime('%d/%m/%Y').encode('utf-8')
 
         if not close_date:
             close_date_format = 'None'
         else:
-            close_date_format = []
-            for date in close_date:
-                close_time_string = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
-                close_date_format.append(close_time_string.strftime('%d/%m/%Y').encode('utf-8'))
-
+			if len(close_date) > 1:	
+				close_date_format = None
+				for date in close_date:
+					close_time_string = datetime.strptime(date, '%Y-%m-%dT%H:%M:%SZ')
+					if not close_date_format:
+						close_date_format = close_time_string.strftime('%d/%m/%Y').encode('utf-8')
+					else:
+						close_date_format = close_date_format + ' - ' + close_time_string.strftime('%d/%m/%Y').encode('utf-8')
+			else:
+					close_time_string = datetime.strptime(close_date[0], '%Y-%m-%dT%H:%M:%SZ')
+					close_date_format = close_time_string.strftime('%d/%m/%Y').encode('utf-8')
+				
         if not tags:
             tags_format = 'None'
         else:
@@ -111,7 +116,8 @@ class Utils():
             for tag in tags:
                 if tag not in tags_format:
                     tags_format.append(tag.encode('utf-8').strip())
-
+        
+        
         with open(self.file_destination, 'a') as f:
             f.write(
             number + ', ' + author + ', ' + str(tags_format) + ', ' + 
