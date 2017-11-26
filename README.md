@@ -2,7 +2,8 @@
 This document presents the steps needed in order to reproduce the data used in our ICSME-ERA study. Read on for the guidelines.
 
 ## Downloading Data
-Here we describe how to download projects data from GitHub.
+Here we describe how to download projects data from GitHub:
+
 #### ISSUE AND PULL-REQUEST 
 We have developed two scripts to perform this function, [issue_crawler.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/issue_crawler.py) and [pull_crawler.py](https://github.com/fronchetti/ICSME-ERA-Dataset/blob/master/pull_crawler.py). Both are run through the terminal in a very similar way. Follow the model below and see the docstrings in each code to understand it better:
 
