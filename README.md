@@ -1,5 +1,5 @@
-# ICSME-ERA Dataset
-This document presents the steps needed in order to reproduce the data used in our ICSME-ERA study. Read on for the guidelines.
+# ICSME-ERA
+This repository presents the steps needed in order to reproduce the data used in our ICSME-ERA study. Read on for the guidelines.
 
 ## Downloading Data
 Here we describe how to download projects data from GitHub:
